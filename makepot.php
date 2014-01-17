@@ -448,7 +448,7 @@ class MakePOT {
 		$res = $potextmeta->append($main_file, $output);
 		/* Adding non-gettexted strings can repeat some phrases */
 		$output_shell = escapeshellarg($output);
-		system("msguniq $output_shell -o $output_shell");
+		system("msguniq $output_shell -o $output_shell --no-wrap");
 		return $res;
 	}
 
@@ -503,7 +503,7 @@ class MakePOT {
 		}
 		/* Adding non-gettexted strings can repeat some phrases */
 		$output_shell = escapeshellarg($output);
-		system("msguniq $output_shell -o $output_shell");
+		system("msguniq $output_shell -o $output_shell --no-wrap");
 		return $res;
 	}
 
