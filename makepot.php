@@ -435,6 +435,7 @@ class MakePOT {
 			$slug = $this->guess_plugin_slug($dir);
 		}
 		$main_file = $dir.'/'.$slug.'.php';
+		if(!is_file($main_file)) $main_file = $dir.'/plugin.php';
 		$source = $this->get_first_lines($main_file, $this->max_header_lines);
 
 		$placeholders['version'] = $this->get_addon_header('Version', $source);
