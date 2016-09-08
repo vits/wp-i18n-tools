@@ -1,31 +1,31 @@
 {
-    "name": "websharks/wp-i18n-tools",
-    "homepage": "https://github.com/websharks/wp-i18n-tools",
-    "description": "WordPress i18n/translation tools.",
-    "keywords": [
-        "websharks",
-        "wordpress",
-        "translation",
-        "gettext",
-        "i18n"
-    ],
-    "type": "library",
-    "license": "GPL-3.0+",
-    "authors": [{
-        "name": "websharks",
-        "homepage": "http://websharks-inc.com/",
-        "role": "company"
-    }, {
-        "name": "jaswsinc",
-        "homepage": "http://jaswsinc.com/",
-        "role": "developer"
-    }, {
-        "name": "raamdev",
-        "homepage": "http://raam.org/",
-        "role": "developer"
-    }],
-    "support": {
-        "source": "https://github.com/websharks/wp-i18n-tools",
-        "issues": "https://github.com/websharks/wp-i18n-tools/issues"
-    }
+  "name": "websharks/wp-i18n-tools",
+  "homepage": "https://github.com/websharks/wp-i18n-tools",
+  "description": "WordPress i18n/translation tools.",
+  "keywords": [
+    "websharks",
+    "wordpress",
+    "translation",
+    "gettext",
+    "i18n"
+  ],
+  "type": "library",
+  "license": "GPL-3.0+",
+  "authors": [{
+    "name": "websharks",
+    "homepage": "http://websharks-inc.com/",
+    "role": "company"
+  }, {
+    "name": "jaswsinc",
+    "homepage": "http://jaswsinc.com/",
+    "role": "developer"
+  }, {
+    "name": "raamdev",
+    "homepage": "http://raam.org/",
+    "role": "developer"
+  }],
+  "support": {
+    "source": "https://github.com/websharks/wp-i18n-tools",
+    "issues": "https://github.com/websharks/wp-i18n-tools/issues"
+  }
 }

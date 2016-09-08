@@ -1,3 +1,3 @@
-## v15xxxx
+## v160908
 
-- Initial release.
+- Exclude `.~build` directory.
