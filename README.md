@@ -12,3 +12,4 @@ Modified slightly by WebSharks, Inc.
 - Adding support for plugin directories that use a `plugin.php` file instead of `[slug].php`.
 - Adding `composer.json` and package on Packagist.org.
 - Auto-exclude `(?:.+?/)?vendor/.*` in themes/plugins.
+- Auto-exclude `(?:.+?/)?.~build/.*` in themes/plugins.
