@@ -389,7 +389,7 @@ class MakePOT {
 
 	}
 
-	function get_first_lines($filename, $lines = 30) {
+	static function get_first_lines($filename, $lines = 30) {
 		$extf = fopen($filename, 'r');
 		if (!$extf) return false;
 		$first_lines = '';
@@ -405,7 +405,7 @@ class MakePOT {
 	}
 
 
-	function get_addon_header($header, &$source) {
+	static function get_addon_header($header, &$source) {
 		if (preg_match('|'.$header.':(.*)$|mi', $source, $matches))
 			return trim($matches[1]);
 		else
